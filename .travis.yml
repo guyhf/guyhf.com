@@ -4,7 +4,7 @@ r_github_packages:
   - rstudio/blogdown
 before_script:
   - Rscript -e 'blogdown::install_hugo(version = "0.41")'
-  - pip install awscli
+  - sudo pip install awscli
 script:
   - Rscript -e 'blogdown::build_site()'
 deploy:
