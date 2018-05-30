@@ -4,12 +4,12 @@ branches:
   only:
   - source
 r_github_packages:
-- rstudio/blogdown
+  - rstudio/blogdown
 before_script:
-- Rscript -e 'blogdown::install_hugo(version = "0.20.7")'
-- pip install awscli
+  - Rscript -e 'blogdown::install_hugo(version = "0.41")'
+  - pip install awscli
 script:
-- Rscript -e 'blogdown::build_site()'
+  - Rscript -e 'blogdown::build_site()'
 deploy:
   on:
     branch: master
@@ -20,7 +20,7 @@ deploy:
   acl: public_read
   skip_cleanup: true
   # Path to a directory containing your built site.
-  local_dir: build
+  local_dir: public
   # Set the Cache-Control header.
   cache_control: "max-age=21600"
 env:
