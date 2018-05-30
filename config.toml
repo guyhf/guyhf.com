@@ -1,5 +1,5 @@
 theme = "hyde"
-baseURL = "http://guyhf.com"
+baseURL = "http://blog.guyhf.com.s3-website-us-west-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Guy Haskin Fernald"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
