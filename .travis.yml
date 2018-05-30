@@ -1,8 +1,5 @@
 language: r
 cache: packages
-branches:
-  only:
-  - source
 r_github_packages:
   - rstudio/blogdown
 before_script:
