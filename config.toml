@@ -5,3 +5,4 @@ title = "Guy Haskin Fernald"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [Params]
   logo = "https://s.gravatar.com/avatar/9a6a4f9205e54b1e34a0f694ee7f214c?s=240"
+  resumeURL = "http://resume.guyhf.com"
