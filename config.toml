@@ -4,5 +4,6 @@ languageCode = "en-us"
 title = "Guy Haskin Fernald"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [Params]
-  logo = "https://s.gravatar.com/avatar/9a6a4f9205e54b1e34a0f694ee7f214c?s=240"
+  logo = "/images/guyhf_headshot_900.jpg"
   resumeURL = "http://resume.guyhf.com"
+  description = "I'm a Data Scientist at Vium, interested in using technology and data to understand and advance biology and medicine."
